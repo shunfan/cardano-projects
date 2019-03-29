@@ -1,0 +1,8 @@
+@import './_colors.scss';
+@import './_layout.scss';
+
+.card {
+  background-color: $secondary-background-color;
+  border: 1px solid $primary-border-color;
+  border-radius: $regular-border-radius;
+}

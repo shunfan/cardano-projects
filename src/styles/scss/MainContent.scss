@@ -1,0 +1,8 @@
+@import './_layout.scss';
+
+.main-content-container {
+  margin: 0 auto $large-space auto;
+  max-width: 1280px;
+  padding: 0 $small-space;
+  width: 100%;
+}

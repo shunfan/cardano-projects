@@ -1,0 +1,31 @@
+@import './_colors.scss';
+@import './_layout.scss';
+
+.navbar-list {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-weight: bold;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-right: $large-space;
+}
+
+.navbar-item:last-child {
+  margin-right: 0;
+}
+
+.navbar-item-link {
+  display: block;
+  padding: 0 $small-space $small-space $small-space;
+}
+
+.navbar-item-link-selected {
+  border-bottom: 3px solid $cardano-blue;
+}

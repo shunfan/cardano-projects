@@ -1,0 +1,25 @@
+@import './_layout.scss';
+
+.section {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin-bottom: $large-space;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width : 768px) {
+  .section {
+    align-items: center;
+  }
+}

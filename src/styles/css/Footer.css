@@ -1,0 +1,10 @@
+.footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 36px; }
+  .footer p {
+    color: #999999; }

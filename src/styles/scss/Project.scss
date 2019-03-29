@@ -1,0 +1,83 @@
+@import './_colors.scss';
+@import './_layout.scss';
+
+.project {
+  border-bottom: 1px solid $primary-border-color;
+  display: inline-block;
+  position: relative;
+  width: 50%;
+}
+
+.project:nth-child(odd) {
+  border-right: 1px solid $primary-border-color;
+}
+
+.project-last {
+  border-bottom: none;
+}
+
+.project-link {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  justify-content: flex-start;
+  padding: $regular-space $regular-space - 6px;
+}
+
+.project-link:hover {
+  background-color: $primary-background-color;
+}
+
+.project-header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin-bottom: $small-space;
+  width: 100%;
+
+  img {
+    height: 24px;
+    margin-right: $small-space;
+  }
+}
+
+.project-header-narrow {
+  width: calc(100% - 72px - #{$mini-space});
+}
+
+.project-title {
+  margin: 0;
+}
+
+.project-description {
+  color: $background-text-color;
+  margin: 0;
+}
+
+.project-actions {
+  position: absolute;
+  right: $regular-space - 4px;
+  top: $regular-space;
+}
+
+@media only screen and (max-width : 768px) {
+  .project {
+    width: 100%;
+  }
+
+  .project:nth-child(odd) {
+    border-right: none;
+  }
+
+  .project:last-child {
+    border-bottom: none;
+  }
+
+  .project-last {
+    border-bottom: 1px solid $primary-border-color;
+  }
+}

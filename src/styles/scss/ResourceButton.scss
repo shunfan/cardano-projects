@@ -1,0 +1,31 @@
+@import './_colors.scss';
+@import './_layout.scss';
+
+.resource-button {
+  align-items: center;
+  background-color: $secondary-background-color;
+  border: 1px solid $primary-border-color;
+  border-radius: $regular-border-radius;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 24px;
+  justify-content: space-between;
+  padding: 0 $mini-space;
+  width: 72px;
+}
+
+.resource-button:hover {
+  border-color: $cardano-blue;
+  color: $cardano-blue;
+}
+
+.resource-button-icon {
+  display: inline-flex;
+  font-size: 14px;
+}
+
+.resource-button-name {
+  font-size: 12px;
+  line-height: 12px;
+}

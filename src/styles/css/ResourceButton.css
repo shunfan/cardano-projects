@@ -1,0 +1,24 @@
+.resource-button {
+  align-items: center;
+  background-color: white;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 24px;
+  justify-content: space-between;
+  padding: 0 6px;
+  width: 72px; }
+
+.resource-button:hover {
+  border-color: #286ED0;
+  color: #286ED0; }
+
+.resource-button-icon {
+  display: inline-flex;
+  font-size: 14px; }
+
+.resource-button-name {
+  font-size: 12px;
+  line-height: 12px; }

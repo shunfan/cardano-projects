@@ -1,0 +1,21 @@
+@import './_layout.scss';
+
+.brand {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-bottom: $regular-space;
+}
+
+.brand-logo {
+  margin-right: $small-space;
+  width: 32px;
+}
+
+.brand-title {
+  display: inline;
+  font-weight: bold;
+  margin: 0;
+}

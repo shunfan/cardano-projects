@@ -1,0 +1,12 @@
+@import './_colors.scss';
+@import './_layout.scss';
+
+.project-list {
+  align-content: space-between;
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}

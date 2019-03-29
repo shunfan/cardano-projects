@@ -1,0 +1,95 @@
+@import './_colors.scss';
+@import './_layout.scss';
+
+html {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: normal;
+  src: url(../../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: bold;
+  src: url(../../fonts/Raleway-SemiBold.ttf);
+}
+
+body {
+  background-color: $primary-background-color;
+  font-family: "Raleway", "Helvetica Neue", "Helvetica", "Arial", sans-serif;;
+  line-height: 1.58;
+}
+
+a {
+  color: $text-color;
+  text-decoration: none;
+}
+
+p {
+  color: $text-color;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.58;
+  margin: 0 0 1rem 0;
+
+  a {
+    color: $cardano-blue;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+h1, h2, h3 {
+  color: $text-color;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0 0 0.5rem 0;
+}
+
+h1 {
+  font-size: 1.9375rem;
+}
+
+h2 {
+  font-size: 1.5625rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+pre,
+code {
+  font-family: Menlo, Monaco, "Courier New", Courier, monospace;
+  white-space: pre;
+  white-space: pre-wrap;
+}
+
+pre {
+  margin: 0 0 1rem 0;
+}
+
+code {
+  background: $secondary-background-color;
+  border: 1px solid $primary-border-color;
+  border-radius: $regular-border-radius;
+  display: block;
+  font-size: 95%;
+  padding: $mini-space;
+}
+
+@media only screen and (max-width : 768px) {
+  html {
+    font-size: 12px;
+  }
+}

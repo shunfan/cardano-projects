@@ -1,0 +1,16 @@
+@import './_colors.scss';
+@import './_layout.scss';
+
+.header {
+  align-items: center;
+  background-color: $secondary-background-color;
+  border-bottom-color: $primary-border-color;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-bottom: $large-space;
+  padding-top: $regular-space;
+}
