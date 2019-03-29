@@ -5,7 +5,7 @@ import '../styles/css/Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <p>© 2018 Cardano Projects</p>
+      <p>© 2019 Cardano Projects</p>
     </footer>
   );
 }
